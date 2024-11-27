@@ -19,11 +19,16 @@ h1{
   border: 2px solid #000
 }
 
+.main-content h1.texto-custom {
+  color: aquamarine;
+}
+
 .texto-custom {
-  color: red;
+  color: red !important;
   background-color: blue;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-style: italic;
+  border-color: rgb(39, 131, 96);
 }
 
 /* .texto-custom{
@@ -36,6 +41,10 @@ h1{
   background-color: brown;
   font-style: oblique;
 }
+h1{
+  border-color:#8f2ba2
+}
+
 .espacioabajocustom{
   /* margin: 50px 30px  60px 40px; */
   margin: 50px 30px;
