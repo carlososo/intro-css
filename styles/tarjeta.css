@@ -7,13 +7,13 @@ body{
 
 #tarjeta-uno .contenedor-imagen{
   width: 50%;
-  vertical-align: middle;
 }
 
 #tarjeta-uno .contenedor-imagen .imagen-starbucks{
   max-width: 100%;
 }
 .contenedor-texto{
+  position: absolute;
   color: white;
   text-align: center;
   width: 364px;
