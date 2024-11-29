@@ -86,13 +86,13 @@ ul .list-item .hipervinculo-especial-dos{
   background-color: #8f2ba2;
 }
 .navegador{
-  padding: 20px;
+  height: 50px;
   background-color: antiquewhite;
+  position: sticky;
+  top: 0;
 }
 .nav-item{
-  display: inline-block;
   list-style: none;
-  margin-right: 10px;
 }
 .nav-item a {
   text-decoration: none;
@@ -101,4 +101,11 @@ ul .list-item .hipervinculo-especial-dos{
 
 .nav-item a:hover{
   color: #8f2ba2;
+}
+
+.navegador-ul{
+  display: flex;
+  align-items: center;
+  height: 100%;
+  gap: 15px;
 }
