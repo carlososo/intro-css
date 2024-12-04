@@ -1,5 +1,3 @@
-console.log("Jajajaja")
-
 const closeButton = document.getElementById('closeBannerButton')
 const cookieBanner = document.getElementById('cookieBanner')
 closeButton.addEventListener('click', () => {
