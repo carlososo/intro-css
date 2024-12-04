@@ -74,6 +74,7 @@ ul .list-item a:hover{
   color:#8f2ba2;
 }
 
+
 ul .list-item .hipervinculo-especial{
   color:rgb(82, 118, 184);
 }
@@ -103,9 +104,15 @@ ul .list-item .hipervinculo-especial-dos{
   color: #8f2ba2;
 }
 
+.nav-item a .icon:hover{
+  font-size: 1.5rem;
+  color: rgb(58, 221, 167);
+}
+
 .navegador-ul{
   display: flex;
   align-items: center;
   height: 100%;
   gap: 15px;
+  list-style: none;
 }

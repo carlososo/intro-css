@@ -30,9 +30,9 @@
 }
 
 .caja-uno {
-  align-self: flex-start;
+  /* align-self: flex-start; */
 }
 
 .caja-tres{
-  align-self: flex-end;
+  /* align-self: flex-end; */
 }
