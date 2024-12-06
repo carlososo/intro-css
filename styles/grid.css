@@ -1,0 +1,36 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: blueviolet;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr) 2fr;
+  grid-template-rows: repeat(6, 1fr);
+  height: 100vh;
+}
+
+
+.header{
+  background-color: rgb(184, 178, 178);
+  grid-column: 1 / 14;
+  grid-row: 1 / 2;
+}
+.side{
+  background: linear-gradient(0deg, rgb(29, 57, 50) 0%, rgb(10, 105, 75) 100%);
+  grid-column: 1 / 7;
+  grid-row: 2 / 6;
+}
+.main{
+  background-color: whitesmoke;
+  grid-column: 7 / 14;
+  grid-row: 2 / 6
+}
+.footer{
+  grid-column: 1 / 14;
+  background-color:thistle;
+}

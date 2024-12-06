@@ -1,8 +1,14 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 body{
   font-family: "Roboto", serif;
 }
 #tarjeta-uno{
   background-color: #1E3932;
+  position: relative;
 }
 
 #tarjeta-uno .contenedor-imagen{
@@ -22,3 +28,10 @@ body{
 .contenedor-interno{
   display: inline-block;
 }
+
+/* 
+Positions:
+: valor por defecto 
+relative: nos permite utilizar top, bottom, left y right  
+
+*/
